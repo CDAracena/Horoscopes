@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="horoscopes.css">
+    <title>Horoscopes AJAX</title>
+  </head>
+  <body>
+    <div class="container-fluid headContainer">
+      <div class="col-md-2">
+        Home
+      </div>
+      <div class="col-md-2">
+        Different Signs
+      </div>
+      <div class="col-md-1">
+        Facts
+      </div>
+    </div>
+
+    <br><br><br><br>
+    <div class="container-fluid">
+      <div class="container horoscopesContainer">
+        <div class="col-md-12 aquariusContainer">
+          <h2>Select Your Sign</h2>
+
+          <select>
+            <option class="selector1" value="aquarius"> Aquarius </option>
+            <option class="selector2" value="pisces">Pisces </option>
+            <option class="selector3" value="aries"> Aries </option>
+            <option class="selector4" value="taurus">Taurus </option>
+            <option class="selector5" value="gemini">Gemini </option>
+            <option class="selector6" value="cancer">Cancer </option>
+            <option class="selector7" value="leo">Leo </option>
+            <option class="selector8" value="virgo">Virgo </option>
+            <option class="selector9" value="libra">Libra </option>
+            <option class="selector10" value="scorpio">Scorpio</option>
+            <option class="selector11" value="sagittarius">Sagittarius </option>
+            <option class="selector12" value="capricorn">Capricorn</option>
+
+          </select>
+           <button class="btn btn-primary">Check </button>
+           <div class="sign"> </div>
+           <div class="date"> </div>
+           <div class="HInfo"></div>
+            </div>
+          </div>
+
+          <br><br><br><br>
+
+          <div class="container compatibleContainer">
+            <h2>Love Compatibility </h2>
+            <div class="col-md-12">
+              <button class="btn btn-primary secondButton">Match 'Em Up! </button>
+              <select class="select2">
+                <option class="selector1" value="aquarius"> Aquarius </option>
+                <option class="selector2" value="pisces">Pisces </option>
+                <option class="selector3" value="aries"> Aries </option>
+                <option class="selector4" value="taurus">Taurus </option>
+                <option class="selector5" value="gemini">Gemini </option>
+                <option class="selector6" value="cancer">Cancer </option>
+                <option class="selector7" value="leo">Leo </option>
+                <option class="selector8" value="virgo">Virgo </option>
+                <option class="selector9" value="libra">Libra </option>
+                <option class="selector10" value="scorpio">Scorpio</option>
+                <option class="selector11" value="sagittarius">Sagittarius </option>
+                <option class="selector12" value="capricorn">Capricorn</option>
+              </select>
+
+              <select class="select3">
+                <option class="selector1" value="aquarius"> Aquarius </option>
+                <option class="selector2" value="pisces">Pisces </option>
+                <option class="selector3" value="aries"> Aries </option>
+                <option class="selector4" value="taurus">Taurus </option>
+                <option class="selector5" value="gemini">Gemini </option>
+                <option class="selector6" value="cancer">Cancer </option>
+                <option class="selector7" value="leo">Leo </option>
+                <option class="selector8" value="virgo">Virgo </option>
+                <option class="selector9" value="libra">Libra </option>
+                <option class="selector10" value="scorpio">Scorpio</option>
+                <option class="selector11" value="sagittarius">Sagittarius </option>
+                <option class="selector12" value="capricorn">Capricorn</option>
+              </select>
+
+              <div class="compatible"> </div>
+            </div>
+          </div>
+        </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="horoscopes.js"></script>
+  </body>
+</html>
